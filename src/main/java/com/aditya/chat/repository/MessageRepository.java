@@ -1,0 +1,1 @@
+package com.aditya.chat.repository; import com.aditya.chat.entity.ChatMessage; import org.springframework.data.domain.*; import org.springframework.data.jpa.repository.JpaRepository; public interface MessageRepository extends JpaRepository<ChatMessage,Long>{Page<ChatMessage> findByChatIdOrderByCreatedAtDesc(String c,Pageable p);}
