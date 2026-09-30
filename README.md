@@ -72,11 +72,9 @@ git init
 git add .
 git commit -m "feat: build real-time chat backend"
 git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/realtime-chat-java.git
+git remote add origin https://github.com/Vermaaditya3030/realtime-chat-java.git
 git push -u origin main
 ```
-
-Replace `YOUR_USERNAME` with your GitHub username.
 
 ## Next improvements
 - Authenticate WebSocket CONNECT using JWT
